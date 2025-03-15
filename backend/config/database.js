@@ -1,4 +1,8 @@
+require('dotenv').config();
 const config = require('./index');
+console.log('DB_FILE Path:', config.dbFile); // Debug log
+
+
 
 module.exports = {
   development: {
@@ -23,3 +27,5 @@ module.exports = {
     }
   }
 };
+
+
